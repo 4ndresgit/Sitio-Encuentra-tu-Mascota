@@ -6,6 +6,9 @@
 
  body {
      font-family: 'Poppins', sans-serif;
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
  }
  
  /* NAV */
@@ -58,6 +61,8 @@
 
  .footer {
      background-color: #1D293F;
+     position: absolute;
+     width: 95%;
  }
 
  .footer__title {
@@ -91,7 +96,7 @@
  .nav__link--footer {
      display: flex;
      margin: 0;
-     margin-right: 20px;
+     margin-right: 10px;
      flex-wrap: wrap;
  }
 
