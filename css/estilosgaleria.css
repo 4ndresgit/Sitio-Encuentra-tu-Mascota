@@ -10,7 +10,52 @@ html,
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: whitesmoke;
+}
+
+/* NAV */
+
+.nav {
+    --padding-container: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__title {
+    font-weight: 300;
+}
+
+.nav__items {
+    list-style: none;
+}
+
+.nav__link {
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav__links {
+    color: #040404;
+    text-decoration: none;
+}
+
+.nav__menu {
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.nav__img {
+    display: block;
+    width: 30;
+}
+
+.nav__close {
+    display: var(--show, none);
 }
 
 .section {
@@ -21,12 +66,13 @@ body{
     line-height: 1.6;
     margin: 0;
     padding: 0;
+
 }
 
 .title {
     text-align: center;
     font-size: 3rem;
-    color: #6a6a6a;
+    color: #131313;
     margin-top: 100px;
     font-weight: 100;
     font-family: 'Poppins', sans-serif;
@@ -36,7 +82,7 @@ body{
 .container {
     width: 90%;
     max-width: 1200px;
-    height: 430px;
+    height: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -80,8 +126,7 @@ body{
     text-decoration: none;
     color: #3498db;
 }
-
-/* FOOTER GALERIA */
+/* FOOTER */
 
 .footer {
     background-color: #1D293F;
@@ -103,7 +148,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
     padding-bottom: 20px;
 }
 

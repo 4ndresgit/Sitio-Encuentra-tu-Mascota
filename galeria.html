@@ -1,18 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Card con efecto hover - Magtimus</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/estilosgaleria.css" />
     <link rel="shortcut icon" href="/img/favicon.png" />
     <title>Encuentra tu mascota!</title>
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
   </head>
   <body>
-    <section>
+    <nav class="nav container">
+      <div class="nav__logo">
+        <h1 class="nav__title">Encuentra tu Mascota!</h1>
+      </div>
+
+      <ul class="nav__link nav__link-menu">
+        <li class="nav__items">
+          <a href="index.html" class="nav__links">Home</a>
+        </li>
+        <li class="nav__items">
+          <a href="nosotros.html" class="nav__links">Nosotros</a>
+        </li>
+        <li class="nav__items">
+          <a href="galeria.html" class="nav__links">Galeria</a>
+        </li>
+        <li class="nav__items">
+          <a href="contacto.html" class="nav__links">Contacto</a>
+        </li>
+        <img src="img/home/close.svg" alt="cierre nav" class="nav__close" />
+      </ul>
+
+      <div class="nav__menu">
+        <img src="img/home/menu.svg" alt="menu" class="nav__img" />
+      </div>
+    </nav>
+    <section class="section">
       <h1 class="title">Entre ellas está tu mascota...solo mira bien!</h1>
 
       <div class="container">
@@ -27,7 +51,7 @@
         </div>
         <div class="card">
           <img src="img/galeria/perro02.jpeg" />
-          <h4>Comida</h4>
+          <h4>Simon</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
             excepturi unde?
@@ -36,7 +60,7 @@
         </div>
         <div class="card">
           <img src="img/galeria/perro03.jpeg" />
-          <h4>Tecnología</h4>
+          <h4>Juana</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
             excepturi unde?
@@ -45,7 +69,7 @@
         </div>
         <div class="card">
           <img src="img/galeria/perro04.jpeg" />
-          <h4>Tecnología</h4>
+          <h4>Princesa</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
             excepturi unde?
@@ -54,7 +78,7 @@
         </div>
         <div class="card">
           <img src="img/galeria/perro05.jpeg" />
-          <h4>Tecnología</h4>
+          <h4>Koda</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
             excepturi unde?
@@ -63,7 +87,7 @@
         </div>
         <div class="card">
           <img src="img/galeria/perro06.jpeg" />
-          <h4>Tecnología</h4>
+          <h4>Luna</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
             excepturi unde?
@@ -72,7 +96,7 @@
         </div>
         <div class="card">
           <img src="img/galeria/perro07.jpeg" />
-          <h4>Tecnología</h4>
+          <h4>Lucas</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
             excepturi unde?
@@ -81,7 +105,7 @@
         </div>
         <div class="card">
           <img src="img/galeria/perro08.jpeg" />
-          <h4>Tecnología</h4>
+          <h4>Lazaro</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
             excepturi unde?
@@ -90,7 +114,7 @@
         </div>
         <div class="card">
           <img src="img/galeria/perro09.jpeg" />
-          <h4>Tecnología</h4>
+          <h4>Barbita</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
             excepturi unde?
@@ -99,7 +123,7 @@
         </div>
         <div class="card">
           <img src="img/galeria/perro10.jpeg" />
-          <h4>Tecnología</h4>
+          <h4>Lovi</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
             excepturi unde?
@@ -108,7 +132,7 @@
         </div>
         <div class="card">
           <img src="img/galeria/perro11.jpeg" />
-          <h4>Tecnología</h4>
+          <h4>Caty</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
             excepturi unde?
@@ -117,7 +141,7 @@
         </div>
       </div>
     </section>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <section class="footer__container container">
         <nav class="nav nav--footer">
           <h2 class="footer__title">Encuentra tu mascota!</h2>
@@ -173,6 +197,6 @@
           Derechos reservados &copy; Andres Rossi
         </h3>
       </section>
-    </footer> -->
+    </footer>
   </body>
 </html>
