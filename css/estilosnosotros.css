@@ -6,12 +6,17 @@
 
  body {
      font-family: 'Poppins', sans-serif;
-     display: flex;
-     flex-direction: column;
-     min-height: 100vh;
+ }
+
+ .container {
+     width: 90%;
+     max-width: 1200px;
+     margin: 0 auto;
+     overflow: hidden;
+     padding: var(--padding-container)
  }
  
- /* NAV */
+ /*---------- NAV----------*/
 
  .nav {
      --padding-container: 0;
@@ -57,7 +62,7 @@
      display: var(--show, none);
  }
  
- /* FOOTER */
+ /* ----------FOOTER---------- */
 
  .footer {
      background-color: #1D293F;
