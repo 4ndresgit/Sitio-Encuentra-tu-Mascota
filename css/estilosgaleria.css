@@ -41,6 +41,11 @@ body{
     gap: 2em;
 }
 
+.nav__links-top {
+    color: #000;
+    text-decoration: none;
+}
+
 .nav__links {
     color: #ffffff;
     text-decoration: none;
