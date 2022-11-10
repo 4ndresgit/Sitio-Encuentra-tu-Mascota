@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 
-:root{
+:root
+{
     --padding-container: 100px 0;
     --color-title: #001a49;
 }
 
-body{
+body
+{
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
+.container
+{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -18,7 +21,8 @@ body{
     padding: var(--padding-container)
 }
 
-.hero{
+.hero
+{
     width: 100%;
     height: 100vh;
     min-height: 600px;
@@ -26,10 +30,11 @@ body{
     position: relative;
     display: grid;
     grid-template-rows: 100px 1fr;
-    color: #ffffff;
+    color: #fff;
 }
 
-.hero::before{
+.hero::before
+{
     content: "";
     position: absolute;
     top: 0;
@@ -44,22 +49,26 @@ body{
 
 /*----------NAV---------- */
 
-.nav{
+.nav
+{
     --padding-container:0;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.nav__title{
+.nav__title
+{
     font-weight: 300;
 }
 
-.nav__items{
+.nav__items
+{
     list-style: none;
 }
 
-.nav__link{
+.nav__link
+{
     margin-left: auto;
     padding: 0;
     display: grid;
@@ -68,29 +77,34 @@ body{
     gap: 2em;
 }
 
-.nav__links{
-    color: #ffffff;
+.nav__links
+{
+    color: #fff;
     text-decoration: none;
 }
 
-.nav__menu{
+.nav__menu
+{
     margin-left: auto;
     cursor: pointer;
     display: none;
 }
 
-.nav__img{
+.nav__img
+{
     display: block;
     width: 30;
 }
 
-.nav__close{
+.nav__close
+{
     display: var(--show, none);
 }
 
 /* -----------HERO CONTAINER------------ */
 
-.hero__container{
+.hero__container
+{
     max-width: 800px;
     --padding-container:0;
     display: grid;
@@ -102,35 +116,40 @@ body{
 
 } 
 
-.hero__title{
+.hero__title
+{
     font-size: 3rem;
 }
 
-.hero__paragraph{
+.hero__paragraph
+{
     margin-bottom: 10px;
 }
 
-.cta{
+.cta
+{
     display: inline-block;
-    background-color: #2091f9;
+    background-color: #3866f2;
     justify-self: center;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
 }
 
-@media (hover: hover){
+@media (hover: hover)
+{
     .cta:hover{
         color:#000000;
-        background-color: #4da4f6;
+        background-color: #3866f2;
     }
 }
 
 
 /* ----------KNOWLEDGE---------- */
 
-.knowledge {
+.knowledge 
+{
     background-color: #7c7c8d;
     background-image: radial-gradient(#979ac3 1px, transparent 1px), radial-gradient(#999cc2 0.5px, #a6a6b0 0.5px);
     background-size: 20px 20px;
@@ -138,46 +157,55 @@ body{
     overflow: hidden;
 }
 
-.knowledge__container {
+.knowledge__container 
+{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     align-items: center;
 }
 
-.knowledge__picture {
+.knowledge__picture
+ {
     max-width: 500px;
 }
 
-.knowledge__paragraph {
+.knowledge__paragraph 
+{
     line-height: 1.7;
     margin-bottom: 15px;
 }
 
-.knowledge__img {
+.knowledge__img 
+{
     width: 100%;
     display: block;
 }
 
  /* ---------FOOTER---------- */
 
- .footer {
+ .footer
+  {
      background-color: #1D293F;
+     height: 400px;
  }
 
- .footer__title {
+ .footer__title 
+ {
      font-weight: 300;
      font-size: 2rem;
-     margin-bottom: 30px;
+     margin-bottom: 20px;
  }
 
  .footer__title,
- .footer__newsletter {
+ .footer__newsletter 
+ {
      color: #fff;
  }
 
 
- .footer__container {
+ .footer__container 
+ {
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -185,7 +213,8 @@ body{
      padding-bottom: 20px;
  }
 
- .nav--footer {
+ .nav--footer
+ {
      padding-bottom: 10px;
      display: grid;
      gap: 1em;
@@ -193,20 +222,23 @@ body{
      height: 100%;
  }
 
- .nav__link--footer {
+ .nav__link--footer
+  {
      display: flex;
      margin: 0;
      margin-right: 20px;
      flex-wrap: wrap;
  }
 
- .footer__inputs {
+ .footer__inputs
+  {
      margin-top: 10px;
      display: flex;
      overflow: hidden;
  }
 
- .footer__input {
+ .footer__input
+  {
      background-color: #fff;
      height: 50px;
      display: block;
@@ -218,12 +250,13 @@ body{
      margin-right: 16px;
  }
 
- .footer__submit {
+ .footer__submit 
+ {
      margin-left: auto;
      display: inline-block;
      height: 50px;
      padding: 0 20px;
-     background-color: #2091F9;
+     background-color: #3866f2;
      border: none;
      font-size: 1rem;
      color: #fff;
@@ -231,22 +264,27 @@ body{
      cursor: pointer;
  }
 
- .footer__copy {
+ .footer__copy 
+ {
      --padding-container: 30px 0;
      text-align: center;
      color: #fff;
  }
 
- .footer__copyright {
+ .footer__copyright
+  {
      font-weight: 300;
  }
 
- .footer__icons {
+ .footer__icons
+  {
      margin-bottom: 10px;
  }
 
- .footer__img {
-     width: 20px;
+ .footer__img
+  {
+     width: 30px;
+     height: 30px;
  }
 
  
